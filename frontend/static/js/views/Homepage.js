@@ -11,6 +11,9 @@ export default class extends AbstractView{
         <div style="background-color: red">
             <button id="test">description</button>
         </div>
+        
+
+<button onclick="myFunction()">Toggle dark mode</button>
         `;
     }
 }

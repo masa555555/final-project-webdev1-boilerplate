@@ -1,0 +1,15 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.countryV {
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+  height: 100px;
+  background-color: pink;
+}
+/*# sourceMappingURL=index.css.map */

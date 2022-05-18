@@ -23,6 +23,17 @@ export default class extends AbstractView{
                 country = countries[i];
             }
         }
-        return ` <h1>${country.cca3}'s flag is ${country.flag}</h1>`;
+        return `
+        <div class="countryV">
+        <h1>${country}'s flag is ${country.flag}</h1>
+        <p>Capital: ${country.capital}</p>
+        <p>Languages: ${country.languages}</p>
+        <p>Population: ${country.population}</p>
+        <p>Currencies: ${country.currencies.BWP.name}</p>
+        <p>Region: ${country.region}</p>
+        <p>Subregion: ${country.subregion}</p>
+        </div>
+        `;
     }
+    
 }
